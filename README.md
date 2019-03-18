@@ -29,6 +29,8 @@ After all these steps, you will get two java file
 1. `*_ESTest`
 2. `*_ESTest_scaffolding`
 Just discard `*_ESTest_scaffolding`, it is useless.
-If you can't run `Jacoco` directly, please copy the test scripts to other test file.
+And comment `@RunWith*` and `extends *_ESTest_scaffolding`.
+Or copy the generated test scripts to your own file.
+
 
 Thank you!
