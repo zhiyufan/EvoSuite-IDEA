@@ -32,5 +32,6 @@ Just discard `*_ESTest_scaffolding`, it is useless.
 And comment `@RunWith*` and `extends *_ESTest_scaffolding`.
 Or copy the generated test scripts to your own file.
 
+Kindly remind: please use JDK8
 
 Thank you!
