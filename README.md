@@ -4,7 +4,7 @@
 1. Create a new Maven project
 2. Create a peice of java code under `src/main/java`, e.g, `codeToTest.java`
 3. Create a junit script under `src/test/java`, e.g, `codeToTestTest.java`
-4. Modify the your `pom.xml` like [pom.xml](https://github.com/Krystal97/EvoSuite-IDEA/blob/master/ideaj.example/pom.xml).
+4. Modify your `pom.xml` like [pom.xml](https://github.com/Krystal97/EvoSuite-IDEA/blob/master/ideaj.example/pom.xml).
 5. Dowload all dependencies
 
 ### To use `Jacoco` in IDEA
@@ -32,6 +32,5 @@ Just discard `*_ESTest_scaffolding`, it is useless.
 And comment `@RunWith*` and `extends *_ESTest_scaffolding`.
 Or copy the generated test scripts to your own file.
 
-Kindly remind: please use JDK8
+Environment requirement: Java 8
 
-Thank you!
