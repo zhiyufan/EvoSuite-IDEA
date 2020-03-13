@@ -21,11 +21,11 @@
 1. Go to Plugin Market and search EvoSuite
 2. Install `EvoSuite Plugin` and restart IDEA IDE
 3. Right click the junit script and select `Run EvoSuite`
-4. Customize your configuration.
-4.1 Maven location: for ubuntu: `/usr/share/maven/bin/mvn` (install by apt install maven)
-4.2 JAVA_HOME
+4. Customize your configuration
+  * Maven location: for ubuntu: `/usr/share/maven/bin/mvn` (apt install maven)
+  * JAVA_HOME
 
-After all these steps, you will get two java file
+After all these steps, you will get two java files
 1. `*_ESTest`
 2. `*_ESTest_scaffolding`
 Just discard `*_ESTest_scaffolding`, it is useless.
